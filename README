@@ -1,0 +1,4 @@
+Somnium is a tiny blog system with minimum functionalities. No Database, no
+admin panel.
+
+You have to install Kepler/cgilua for using it.
