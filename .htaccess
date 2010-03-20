@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteBase /
+RewriteRule ^.*\.lua|lp - [F]
+RewriteRule ^([^\.]*)$ /cgi-bin/cgilua.cgi/somnium/index.lua?para=$1 [L]
+#RewriteRule ^(.*)$ /cgi-bin/lua.fcgi/$1 [L]
