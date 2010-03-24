@@ -44,10 +44,12 @@ som = {
 }
 
 --read config file
-dofile("config.lua")
+cgilua.doif("config.lua")
 
 --internationalization
-dofile("i18n.lua")
+if not cgilua.doif("i18n."..som.config.lang..".lua") then
+    cgilua.dofile("i18n.en.lua")
+end
 
 som.getstatustext = som.i18n.getstatustext
 

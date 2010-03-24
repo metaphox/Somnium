@@ -18,6 +18,7 @@ config.theme="2010"
 config.nperpage=5
 config.username="user"
 config.password="password"
+config.lang="en"
 
 --[[ shouldnt need to change this ]]
 config.themepath= "templates/" .. config.theme .. "/"
