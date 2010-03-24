@@ -43,7 +43,7 @@ som.i18n.getstatustext = function()
 	if som.status.linear then
 		return som.i18n.status.linear .. som.i18n.status.fromto()
 	elseif som.status.archive then
-		return som.i18n.status.archive .. som.i18n.statu.fromyearmonth(som.archives.viewing.year, som.archives.viewing.month)
+		return som.i18n.status.archive .. som.i18n.status.fromyearmonth(som.archives.viewing.year, som.archives.viewing.month)
 	elseif som.status.singlepost then
 		return ""
 	end
