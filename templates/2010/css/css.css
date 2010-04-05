@@ -102,15 +102,17 @@ blockquote{
 
 #page{
 	background: #00051b url(bbg.png) repeat-x;
-	padding:49px 0;
+	padding:25px 0 49px 0;
 }
 
 #wrapper{
 	width:960px;
 	padding:0;
 	margin:0 auto;
-	background:#00051b url("bodybg.jpg") no-repeat;
-	border-radius:5px;	
+	background:#00051b url("bodybg.jpg") top center no-repeat;
+	border-radius:5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
 }
 
 .pagenav{
@@ -203,6 +205,8 @@ blockquote{
 	background-color: rgba(0, 13, 69, 0.35);
 	background:2px dotted #001;
 	border-radius:5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
 }
 
 #nav a{
@@ -210,7 +214,7 @@ blockquote{
 }
 
 #nav a:hover{
-	color:#000;
+	color:#fff;
 	border:0;
 }
 
@@ -233,6 +237,9 @@ div#content{
 	_margin:0 25px 0 0;
 	background-color: rgba(0, 13, 69, 0.35);
 	color: #999;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	 -webkit-border-radius: 5px;
 }
 
 #content .post-text{

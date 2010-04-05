@@ -48,7 +48,7 @@ cgilua.doif("config.lua")
 
 --internationalization
 if not cgilua.doif("i18n."..som.config.lang..".lua") then
-    cgilua.dofile("i18n.en.lua")
+    cgilua.doif("i18n.en.lua")
 end
 
 som.getstatustext = som.i18n.getstatustext

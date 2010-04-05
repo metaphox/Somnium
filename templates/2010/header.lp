@@ -2,10 +2,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 <head>	
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width" />
 	<title><%= som.title() %></title>
-	<link href="<%= som.config.absolutethemepath .. "css/css.css" %>" type="text/css" rel="stylesheet" />
-	<script type="text/javascript" src="<%= som.config.absolutethemepath .. "js/jquery-1.4.2.js"%>"></script>
-	<script type="text/javascript" src="<%= som.config.absolutethemepath .. "js/js.js"%>"></script>
+	<link href="<%= som.config.absolutethemepath %>css/css.css" type="text/css" rel="stylesheet" />
+	<link rel="stylesheet" type="text/css" href="<%= som.config.absolutethemepath %>css/ipad.css" media="only screen and (max-device-width: 1024px)" />
+	<link rel="stylesheet" type="text/css" href="<%= som.config.absolutethemepath %>css/ipod.css" media="only screen and (max-device-width: 480px)" />
+	<script type="text/javascript" src="<%= som.config.absolutethemepath %>js/jquery-1.4.2.js"></script>
+	<script type="text/javascript" src="<%= som.config.absolutethemepath %>js/js.js"></script>
 	<link href="<%= som.config.indexurl .. "/feed" %>" type="application/rss+xml" title="RSS 2.0" rel="alternate" />	
 </head>
 <body>
